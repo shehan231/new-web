@@ -1,0 +1,16 @@
+{
+  "name": "syberhack-sl-hub",
+  "version": "2.0.0",
+  "description": "SyberHack SL Hub – server-persisted video vault",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'Static site – no build step required'"
+  },
+  "dependencies": {
+    "@netlify/functions": "^2.6.0",
+    "@supabase/supabase-js": "^2.43.4"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  }
+}
